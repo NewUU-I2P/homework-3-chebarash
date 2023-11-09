@@ -1,6 +1,19 @@
-float problemSolution5(float x, float y, char operation) {
-   float result;
-   // write your code here
-
-   return result;
+float problemSolution5(float x, float y, char operation)
+{
+   switch (operation)
+   {
+   case '+':
+      return x + y;
+      break;
+   case '-':
+      return x - y;
+      break;
+   case '*':
+      return x * y;
+      break;
+   case '/':
+      return x / y;
+      break;
+   }
+   return 0;
 }
