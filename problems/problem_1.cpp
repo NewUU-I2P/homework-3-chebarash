@@ -1,4 +1,4 @@
-float problemSolution1(float consumed_water)
+void problemSolution1(float consumed_water)
 {
     float cost = 13;
 
@@ -10,6 +10,4 @@ float problemSolution1(float consumed_water)
     cost += b * 0.12;
     cost += c * 1.4;
     cost += ((consumed_water - 60) > 0 ? (consumed_water - 60) : 0) * 1.5;
-
-    return cost;
 }

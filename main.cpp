@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     cout << "Problem 1\n";
-    cout << problemSolution1(90);
+    cout << problemSolution1(31);
     cout << "Problem 2\n";
     problemSolution2(89, 45, 1982);
     cout << "Problem 3\n";
